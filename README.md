@@ -5,6 +5,12 @@ This is a Chef cookbook that provisions Leiningen 2.x.
 
 ## Dependency
 
+### Most Recent Release
+
+``` ruby
+cookbook 'lein'
+```
+
 ### From Git
 
 ``` ruby
