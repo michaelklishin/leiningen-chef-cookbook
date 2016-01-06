@@ -26,7 +26,7 @@ The main recipe is `lein::default`.
 
 ## Dependencies
 
-OracleJDK 7, OpenJDK 7, OpenJDK 6 or Sun JDK 6.
+Oracle or OpenJDK 7 and 8.
 
 
 ## Contributing
@@ -41,6 +41,6 @@ Write new resource/attribute description to `README.md`.
 ## Copyright & License
 
 Michael S. Klishin, Travis CI Development Team, and [contributors](https://github.com/michaelklishin/cassandra-chef-cookbook/graphs/contributors),
-2012-2015.
+2012-2016.
 
 Released under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0.html).
