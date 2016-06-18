@@ -1,4 +1,4 @@
-vsn = "2.5.3"
+vsn = "2.6.1"
 
 default[:leiningen] = {
   :version        => vsn,
