@@ -18,7 +18,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include_recipe "java"
+include_recipe "java" if node.leiningen.install_java == true
 
 jar_dir  = File.join(node.leiningen.home, ".lein")
 jar_file = File.join(jar_dir, "self-installs", "#{jar_dir}/leiningen-#{node.leiningen.version}-standalone.jar")
